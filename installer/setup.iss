@@ -11,6 +11,7 @@ AppVersion={#AppVersion}
 AppPublisher=Jaguar Security Services
 DefaultDirName={autopf}\{#AppName}
 DefaultGroupName={#AppName}
+SetupIconFile=..\windows\runner\resources\app_icon.ico
 OutputDir=output
 OutputBaseFilename=JaguarAdmin-Setup-{#AppVersion}
 Compression=lzma2
