@@ -1,17 +1,19 @@
-# jaguar_admin
+# JAGUAR SECURITY SERVICES – Admin Desktop
 
-A new Flutter project.
+Application Windows (Flutter desktop) qui affiche l'interface d'administration
+[admin.jss-gn.com](https://admin.jss-gn.com) en plein écran, avec un installateur Inno Setup.
 
-## Getting Started
+**Topics :** `flutter` `dart` `windows` `desktop` `webview` `inno-setup` `admin-dashboard` `jaguar-security-services`
 
-This project is a starting point for a Flutter application.
+## Développement
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run -d windows
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Build
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter build windows --release
+```
